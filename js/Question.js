@@ -10,7 +10,7 @@ class Question {
     this.option2 = createElement('h4');
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
-    this.owner=createElement('h5');
+    this.owner=createElement('h8');
   }
 
   hide(){
