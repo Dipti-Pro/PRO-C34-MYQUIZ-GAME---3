@@ -10,6 +10,7 @@ class Question {
     this.option2 = createElement('h4');
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
+    this.owner=createElement('h5');
   }
 
   hide(){
@@ -33,6 +34,9 @@ class Question {
     this.option3.position(150, 140);
     this.option4.html("4: Example" );
     this.option4.position(150, 160);
+    
+    this.owner.html("by SHUBHAM SM");
+    this.owner.position(600,300);
 
     this.input1.position(150, 230);
     this.input2.position(350, 230);
